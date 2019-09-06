@@ -112,6 +112,6 @@ f.puts(text)
 
 puts File.readable?("test.txt")
 puts File.writable?("test.txt")
-
+puts File.executable?("test.txt")
 
 
