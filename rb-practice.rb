@@ -1,7 +1,7 @@
 
 class Person
   def initialize
-    puts "Hello"
+    puts 'Hello'
   end
 end
 
