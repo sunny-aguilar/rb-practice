@@ -82,4 +82,8 @@
 # talk.call
 
 
+file = File.new("test.txt", "w+")
+file.puts("Some text")
+file.close
+
 
