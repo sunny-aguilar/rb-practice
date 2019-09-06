@@ -30,7 +30,11 @@ class Sandro < Person
     @age = age
   end
 
+  attr_accessor :name, :age
 
+  def say_hi
+    puts 'Hi from sub'
+  end
 
 
 end
@@ -38,7 +42,7 @@ end
 # create objects
 p1 = Person.new('Sandro Aguilar', 37)
 p2 = Person.new('Jese Aguilar', 31)
-
+class
 # do stuff with object
 p1.say_hi
 puts p1.name
