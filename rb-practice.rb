@@ -6,6 +6,7 @@ class Person
     @age = age
   end
 
+  # getters
   def get_name
     @name
   end
@@ -18,11 +19,18 @@ class Person
     puts 'Hi!'
   end
 
+  # setters
+  def set_name=(name)
+    @name = name
+  end
+
 end
 
+# create objects
 p1 = Person.new('Sandro Aguilar', 37)
 p2 = Person.new('Jese Aguilar', 31)
 
+# do stuff with object
 p1.say_hi
 puts p1.get_name
 puts "My age is #{p1.get_age}."
