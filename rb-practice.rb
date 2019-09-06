@@ -44,5 +44,7 @@
 # p1.age = 38
 # puts "My name is #{p1.name} and I'm #{p1.age} years old."
 
-
+say_name = Proc.new do |x|
+  puts "#{x}"
+end
 
