@@ -68,11 +68,11 @@ def calc(proc)
   dur = Time.now - start
 end
 
-someProc = Proc.new do
+some_proc = Proc.new do
   num = 0
-  1000000.times do
+  100000000.times do
     num = num + 1
   end
 end
 
-puts calc(someProc)
+puts calc(some_proc)
