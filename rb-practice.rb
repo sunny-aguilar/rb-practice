@@ -62,17 +62,24 @@
 # say(people, goodbye)
 
 
-def calc(proc)
-  start = Time.now
-  proc.call
-  dur = Time.now - start
-end
+# def calc(proc)
+#   start = Time.now
+#   proc.call
+#   dur = Time.now - start
+# end
+#
+# some_proc = Proc.new do
+#   num = 0
+#   100000000.times do
+#     num = num + 1
+#   end
+# end
+#
+# puts calc(some_proc)
 
-some_proc = Proc.new do
-  num = 0
-  100000000.times do
-    num = num + 1
-  end
-end
 
-puts calc(some_proc)
+
+
+
+
+
