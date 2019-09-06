@@ -13,6 +13,15 @@ class Person
     puts 'Hi!'
   end
 
+  def change(name, age)
+    self.name = name
+    self.age = age
+  end
+
+  def show_name
+    puts "Name: #{@name}, Age: #{@age}"
+  end
+
 end
 
 # create objects
@@ -28,4 +37,8 @@ puts "My age is #{p1.age}."
 p1.name = "Sunny Aguilar"
 p1.age = 38
 puts "My name is #{p1.name} and I'm #{p1.age} years old."
+
+# change name & age
+p1.change('Jill', 24)
+p1.show_name
 
