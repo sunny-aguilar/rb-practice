@@ -79,7 +79,6 @@
 
 
 talk = lambda {puts "hi"}
-
 talk.call
 
 
