@@ -86,14 +86,23 @@
 # file.puts("Some text")
 # file.close
 
-File.open("test.txt", "w+") do |file|
-  file.puts("Writing some text to test file")
-  file.puts("Add another sentence")
-  file.puts("And another")
-end
+# File.open("test.txt", "w+") do |file|
+#   file.puts("Writing some text to test file")
+#   file.puts("Add another sentence")
+#   file.puts("And another")
+# end
 
-puts File.read("test.txt")
+# File.readlines("test.txt").each do |line|
+#   puts "---#{line}"
+# end
+#
+# File.delete("test.txt")
+#
+# File.open("test.txt") if File.file?("test.txt")
 
 
+f = File.new("test.txt", "w+")
+f.puts("Some file content")
 
+puts
 
