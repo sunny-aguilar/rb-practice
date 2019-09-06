@@ -48,3 +48,4 @@ say_name = Proc.new do |x|
   puts "#{x}"
 end
 
+say_name.call('Sunny')
