@@ -6,11 +6,11 @@ class Person
   end
 
   # getters
-  def get_name
+  def name
     @name
   end
 
-  def get_age
+  def age
     @age
   end
 
@@ -36,11 +36,11 @@ p2 = Person.new('Jese Aguilar', 31)
 
 # do stuff with object
 p1.say_hi
-puts p1.get_name
-puts "My age is #{p1.get_age}."
+puts p1.name
+puts "My age is #{p1.age}."
 
 # change object attributes
 p1.name = "Sunny Aguilar"
 p1.age = 38
-puts "My name is #{p1.get_name} and I'm #{p1.get_age} years old."
+puts "My name is #{p1.name} and I'm #{p1.age} years old."
 
