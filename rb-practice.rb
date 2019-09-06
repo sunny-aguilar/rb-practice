@@ -44,6 +44,7 @@
 # p1.age = 38
 # puts "My name is #{p1.name} and I'm #{p1.age} years old."
 
+
 # greet = Proc.new do |x|
 #   puts "Welcome #{x}"
 # end
@@ -59,6 +60,13 @@
 # people = ['Sunny', 'Amy', 'Bryan']
 # say(people, greet)
 # say(people, goodbye)
+
+
+def calc(proc)
+  start = Time.now
+  proc.call
+  dur = Time.now - start
+end
 
 
 
