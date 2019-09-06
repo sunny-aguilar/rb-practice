@@ -104,5 +104,5 @@
 f = File.new("test.txt", "w+")
 f.puts("Some file content")
 
-puts
+puts f.size
 
