@@ -10,6 +10,10 @@ class Person
     @name
   end
 
+  def get_age
+    @age
+  end
+
   def say_hi
     puts 'Hi!'
   end
@@ -21,3 +25,4 @@ p2 = Person.new('Jese Aguilar', 31)
 
 p1.say_hi
 puts p1.get_name
+puts "My age is #{p1.age}"
