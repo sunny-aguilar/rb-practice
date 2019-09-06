@@ -105,6 +105,11 @@ f = File.new("test.txt", "w+")
 text = gets.chomp
 f.puts(text)
 
-if File.file?("test.txt")
-  puts("File Size:" + File.size("test.txt"))
-end
+# if File.file?("test.txt")
+#   puts("File Size:", File.size("test.txt"))
+# end
+
+
+
+
+
