@@ -36,5 +36,6 @@ puts p1.get_name
 puts "My age is #{p1.get_age}."
 
 # change object attributes
-# 
+p1.set_name = "Sunny Aguilar"
+puts "My name is #{p1.get_name}"
 
