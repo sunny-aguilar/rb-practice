@@ -78,7 +78,8 @@
 # puts calc(some_proc)
 
 
-talk = lambda {puts "hi"}
-talk.call
+# talk = lambda {puts "hi"}
+# talk.call
+
 
 
