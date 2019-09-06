@@ -88,8 +88,11 @@
 
 File.open("test.txt", "w+") do |file|
   file.puts("Writing some text to test file")
+  file.puts("Add another sentence")
+  file.puts("And another")
 end
 
+puts File.read("test.txt")
 
 
 
