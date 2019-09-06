@@ -5,10 +5,7 @@ class Person
     @name = name
     @age = 37
   end
-
-  @name = 'Sandro Aguilar'
-  @age = 37
-
+  
 end
 
 p1 = Person.new('Sandro Aguilar', 37)
