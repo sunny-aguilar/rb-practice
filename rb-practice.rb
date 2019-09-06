@@ -5,3 +5,4 @@ class Person
   end
 end
 
+p1 = Person.new
