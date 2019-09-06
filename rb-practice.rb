@@ -10,3 +10,4 @@ class Person
 end
 
 p1 = Person.new('Sandro Aguilar', 37)
+p2 = Person.new('Jese Aguilar', 31)
