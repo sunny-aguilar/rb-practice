@@ -102,7 +102,7 @@
 
 
 f = File.new("test.txt", "w+")
-text = gets.chomp
+text = "some text"
 f.puts(text)
 
 # if File.file?("test.txt")
@@ -110,6 +110,7 @@ f.puts(text)
 # end
 
 
+puts File.readable?("test.txt")
 
 
 
