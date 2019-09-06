@@ -5,6 +5,7 @@ class Person
     @name = name
     @age = 37
   end
+
   
 end
 
