@@ -24,6 +24,17 @@ class Person
 
 end
 
+class Sandro < Person
+  def initialize(name, age)
+    @name = name
+    @age = age
+  end
+
+
+
+
+end
+
 # create objects
 p1 = Person.new('Sandro Aguilar', 37)
 p2 = Person.new('Jese Aguilar', 31)
