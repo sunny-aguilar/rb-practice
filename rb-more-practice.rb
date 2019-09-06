@@ -26,17 +26,19 @@ end
 
 class Sandro < Person
   def initialize(name, age)
-    @name = name
-    @age = age
+    super(name, age)
   end
 
   attr_accessor :name, :age
 
   def say_hi
     super
-    puts 'Hi! from subclass'
+    # puts 'Hi! from subclass'
   end
 
+  def show_name
+    super
+  end
 
 end
 
@@ -61,4 +63,4 @@ p1.show_name
 # use subclass
 sunny = Sandro.new('Sunny', 25)
 sunny.say_hi
-
+sunny.show_name
