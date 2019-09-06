@@ -20,11 +20,11 @@ class Person
   end
 
   # setters
-  def set_name=(name)
+  def name=(name)
     @name = name
   end
 
-  def set_age=(age)
+  def age=(age)
     @age = age
   end
 
