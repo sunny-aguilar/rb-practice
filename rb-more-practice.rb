@@ -42,3 +42,6 @@ puts "My name is #{p1.name} and I'm #{p1.age} years old."
 p1.change('Jill', 24)
 p1.show_name
 
+# to_s method
+puts p1
+
