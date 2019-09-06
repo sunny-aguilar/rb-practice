@@ -24,6 +24,10 @@ class Person
     @name = name
   end
 
+  def set_age=(age)
+    @age = age
+  end
+
 end
 
 # create objects
@@ -37,5 +41,6 @@ puts "My age is #{p1.get_age}."
 
 # change object attributes
 p1.set_name = "Sunny Aguilar"
-puts "My name is #{p1.get_name}"
+p1.set_age = 38
+puts "My name is #{p1.get_name} and I'm #{p1.get_age} years old."
 
