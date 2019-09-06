@@ -10,7 +10,7 @@ class Person
 
   # methods
   def say_hi
-    puts 'Hi!'
+    puts 'Hi! from superclass'
   end
 
   def change(name, age)
@@ -33,7 +33,8 @@ class Sandro < Person
   attr_accessor :name, :age
 
   def say_hi
-    puts 'Hi from sub'
+    super
+    puts 'Hi! from subclass'
   end
 
 
@@ -42,7 +43,7 @@ end
 # create objects
 p1 = Person.new('Sandro Aguilar', 37)
 p2 = Person.new('Jese Aguilar', 31)
-class
+
 # do stuff with object
 p1.say_hi
 puts p1.name
@@ -57,6 +58,7 @@ puts "My name is #{p1.name} and I'm #{p1.age} years old."
 p1.change('Jill', 24)
 p1.show_name
 
-# to_s method
-puts p1
+# use subclass
+sunny = Sandro.new('Sunny', 25)
+sunny.say_hi
 
