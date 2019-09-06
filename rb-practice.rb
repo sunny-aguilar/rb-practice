@@ -6,6 +6,10 @@ class Person
     @age = age
   end
 
+  def get_name
+    @name
+  end
+
   def say_hi
     puts 'Hi!'
   end
@@ -15,4 +19,5 @@ end
 p1 = Person.new('Sandro Aguilar', 37)
 p2 = Person.new('Jese Aguilar', 31)
 
-puts p1.say_hi
+p1.say_hi
+puts p1.get_name
