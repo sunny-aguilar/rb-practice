@@ -86,4 +86,11 @@
 # file.puts("Some text")
 # file.close
 
+File.open("test.txt", "w+") do |file|
+  file.puts("Writing some text to test file")
+end
+
+
+
+
 
