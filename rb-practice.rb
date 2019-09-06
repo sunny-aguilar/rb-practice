@@ -1,4 +1,3 @@
-
 class Person
   def initialize(name, age)
     puts 'Person initialized'
@@ -15,10 +14,6 @@ class Person
     @age
   end
 
-  def say_hi
-    puts 'Hi!'
-  end
-
   # setters
   def name=(name)
     @name = name
@@ -26,6 +21,11 @@ class Person
 
   def age=(age)
     @age = age
+  end
+
+  # methods
+  def say_hi
+    puts 'Hi!'
   end
 
 end
@@ -40,7 +40,7 @@ puts p1.get_name
 puts "My age is #{p1.get_age}."
 
 # change object attributes
-p1.set_name = "Sunny Aguilar"
-p1.set_age = 38
+p1.name = "Sunny Aguilar"
+p1.age = 38
 puts "My name is #{p1.get_name} and I'm #{p1.get_age} years old."
 
