@@ -68,5 +68,7 @@ def calc(proc)
   dur = Time.now - start
 end
 
-
+someProc = Proc.new do
+  num = 0
+end
 
