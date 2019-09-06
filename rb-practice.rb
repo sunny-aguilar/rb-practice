@@ -1,8 +1,9 @@
 
 class Person
   def initialize
-    puts 'Hello'
+    puts 'Person initialized'
   end
+
 end
 
 p1 = Person.new
