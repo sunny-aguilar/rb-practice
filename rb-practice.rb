@@ -44,8 +44,18 @@
 # p1.age = 38
 # puts "My name is #{p1.name} and I'm #{p1.age} years old."
 
-say_name = Proc.new do |x|
-  puts "#{x}"
+greet = Proc.new do |x|
+  puts "Welcome #{x}"
 end
 
-say_name.call('Sunny')
+goodbye = Proc.new do |x|
+  puts "Goodbye #{x}"
+end
+
+def say(arr, proc)
+  arr.each {|x| proc.call x}
+end
+
+people = ['Sunny', 'Amy', 'Bryan']
+say(people, greet)
+say(people, goodbye)
