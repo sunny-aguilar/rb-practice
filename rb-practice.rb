@@ -25,4 +25,4 @@ p2 = Person.new('Jese Aguilar', 31)
 
 p1.say_hi
 puts p1.get_name
-puts "My age is #{p1.get_age}"
+puts "My age is #{p1.get_age}."
