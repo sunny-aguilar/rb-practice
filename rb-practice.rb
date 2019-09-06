@@ -1,7 +1,9 @@
 
 class Person
-  def initialize
+  def initialize(name, age)
     puts 'Person initialized'
+    @name = name
+    @age = 37
   end
 
   @name = 'Sandro Aguilar'
@@ -9,4 +11,4 @@ class Person
 
 end
 
-p1 = Person.new
+p1 = Person.new('Sandro Aguilar', 37)
