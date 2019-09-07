@@ -101,9 +101,9 @@
 # File.open("test.txt") if File.file?("test.txt")
 
 
-f = File.new("test.txt", "w+")
-text = "some text"
-f.puts(text)
+# f = File.new("test.txt", "w+")
+# text = "some text"
+# f.puts(text)
 
 # if File.file?("test.txt")
 #   puts("File Size:", File.size("test.txt"))
