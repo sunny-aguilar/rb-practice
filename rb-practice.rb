@@ -138,6 +138,6 @@ list.each do |x|
   puts x + 1
 end
 
-list.each {}
+list.each {|x|}
 
 end
