@@ -140,5 +140,5 @@ list = [1, 2, 3, 4]
 #   puts x + 1
 # end
 
-b = list.collect {|x| 10 * x }
-puts b
+# b = list.collect {|x| 10 * x }
+# puts b
