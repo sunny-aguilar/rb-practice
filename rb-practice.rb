@@ -114,22 +114,24 @@
 # puts File.writable?("test.txt")
 # puts File.executable?("test.txt")
 
-class Banana
-  def initialize(length, diameter)
-    @color = 'yellow'
-    @length = length
-    @diameter = diameter
-    @is_yummy = true
-  end
+# class Banana
+#   def initialize(length, diameter)
+#     @color = 'yellow'
+#     @length = length
+#     @diameter = diameter
+#     @is_yummy = true
+#   end
+#
+#   #getter/setters
+#   attr_accessor :length, :diameter
+#
+#   def rot
+#     @is_yummy = false
+#   end
+#
+# end
 
-  #getter/setters
-  attr_accessor :length, :diameter
 
-  def rot
-    @is_yummy = false
-  end
-
-end
 
 
 
