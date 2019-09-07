@@ -110,8 +110,8 @@ f.puts(text)
 # end
 
 
-puts File.readable?("test.txt")
-puts File.writable?("test.txt")
-puts File.executable?("test.txt")
+# puts File.readable?("test.txt")
+# puts File.writable?("test.txt")
+# puts File.executable?("test.txt")
 
 
