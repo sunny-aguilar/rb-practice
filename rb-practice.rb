@@ -142,3 +142,8 @@ list = [1, 2, 3, 4]
 
 # b = list.collect {|x| 10 * x }
 # puts b
+
+Thread.new do
+  
+end
+
