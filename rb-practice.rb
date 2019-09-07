@@ -138,5 +138,5 @@ list.each do |x|
   puts x + 1
 end
 
-list.each {|x| puts x + 1}
+list.each { |x| puts x + 1 }
 
