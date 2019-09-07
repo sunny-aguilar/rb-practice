@@ -134,9 +134,11 @@
 
 list = [1, 2, 3, 4]
 
+list.each { |x| puts x + 1 }
+
 list.each do |x|
   puts x + 1
 end
 
-list.each { |x| puts x + 1 }
+
 
