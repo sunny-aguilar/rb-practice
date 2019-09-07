@@ -140,5 +140,5 @@ list.each do |x|
   puts x + 1
 end
 
-
-
+b = list.collect {|x| 10 * x }
+puts b
